@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UCBox</string>
+    <string name="browse_button">Browse</string>
+    <string name="cloudList_button">Cloud List</string>
+    <string name="accountInfo_button">Account Info</string>
+    <string name="file_name">File Name</string>
+    <string name="file_path">File Path:</string>
+    <string name="file_size">File Size</string>
+    <string name="file_Status">File Status</string>
+    <string name="number_upload">Number Of Uploads</string>
+    <string name="number_downloads">Number Of Downloads</string>
+    <string name="storage_used">Storage Used</string>
+    <string name="upload">Upload</string>
+    <string name="delete">Delete</string>
+    <string name="approximate_cost"> Approximate Cost ($)</string>
+    <string name="home">Home</string>
+    <string name="reset_db">ResetDB</string>
+
+
+</resources>

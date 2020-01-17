@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight=".33"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageViewHome"
+        android:layout_width="398dp"
+        android:layout_height="453dp"
+        android:contentDescription="@string/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHome">
+
+        <Button
+            android:id="@+id/homeActivityBrowseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_weight=".33"
+            android:background="@android:color/holo_orange_light"
+            android:drawableBottom="@drawable/ic_search_black_24dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:padding="10sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:text="@string/browse_button"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <Button
+            android:id="@+id/homeActivityCloudList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_weight=".33"
+            android:background="@android:color/holo_orange_light"
+            android:drawableBottom="@drawable/ic_playlist_add_check_black_24dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:padding="10sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:text="@string/cloudList_button"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <Button
+            android:id="@+id/homeActivityAccountInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="@android:color/holo_orange_light"
+            android:drawableBottom="@drawable/ic_content_paste_black_24dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:padding="10sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            android:text="@string/accountInfo_button"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
