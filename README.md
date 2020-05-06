@@ -1,2 +1,1 @@
-# UCBox
-Cloud based android app 
+# UCBox a Cloud based android app 
